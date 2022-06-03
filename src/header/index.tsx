@@ -1,4 +1,6 @@
 const Header = () => {
+  console.count('Header');
+  
   return (
     <div className="navbar bg-base-100 p-6 border-b border-gray-500">
       <div className="flex-1">
